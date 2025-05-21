@@ -1,0 +1,66 @@
+# Jekyll configuration for GitHub Pages
+title: "Tikrit Pharmacy Competitive Curriculum 2025"
+description: "Comprehensive study materials for Tikrit Pharmacy students preparing for competitive exams in 2025"
+baseurl: ""
+url: "https://username.github.io" # Replace with your actual GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - extract_pdf_with_ollama.py
+  - integrate_summaries.py
+  - organize_content.py
+  - pdf_extractor.py
+  - process_pdf.sh
+  - process_pdf_content.sh
+  - requirements.txt
+  - summarize_content.py
+  - update_website.py
+  - "*.pdf"
+  - node_modules/
+  - vendor/
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Language settings
+language: en
+languages: ["en", "ar"]
+
+# Site settings
+timezone: Asia/Baghdad
+encoding: "utf-8"
+
+# GitHub Pages safe plugins only
+safe: true
+incremental: false
+profile: false

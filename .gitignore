@@ -1,1 +1,29 @@
-**/.claude/settings.local.json
+# Python
+__pycache__/
+*.py[cod]
+*\.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Large files
+*.pdf
+extracted_content/raw_images/*.png
+extracted_content/raw_images/*.jpeg
