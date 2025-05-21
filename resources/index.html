@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Tikrit Pharmacy Curriculum</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="en">Tikrit Pharmacy Competitive Curriculum 2025</span><span class="ar">منهاج تنافسي صيدلة تكريت 2025</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i> <span class="en">Home</span><span class="ar">الرئيسية</span></a></li>
+                    <li><a href="../en/index.html"><i class="fas fa-book"></i> <span class="en">English</span><span class="ar">الإنجليزية</span></a></li>
+                    <li><a href="../ar/index.html"><i class="fas fa-book-open"></i> <span class="en">Arabic</span><span class="ar">العربية</span></a></li>
+                    <li><a href="index.html" class="active"><i class="fas fa-file-pdf"></i> <span class="en">Resources</span><span class="ar">المصادر</span></a></li>
+                    <li><a href="../blog/index.html"><i class="fas fa-blog"></i> <span class="en">Study Tips</span><span class="ar">نصائح الدراسة</span></a></li>
+                </ul>
+            </nav>
+            <div class="language-toggle">
+                <button id="toggleLanguage"><i class="fas fa-language"></i> <span class="toggle-text">عربي</span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <div class="content-container">
+                    <h2><span class="en">Study Resources</span><span class="ar">مصادر الدراسة</span></h2>
+                    
+                    <p><span class="en">On this page you can find the original curriculum PDF and additional study resources.</span>
+                    <span class="ar">في هذه الصفحة يمكنك العثور على منهج PDF الأصلي وموارد دراسية إضافية.</span></p>
+                    
+                    <h3><span class="en">Original Curriculum PDF</span><span class="ar">منهج PDF الأصلي</span></h3>
+                    
+                    <div class="pdf-options">
+                        <a href="منهاج تنافسي صيدلة تكريت 2025 FE.pdf" download class="btn primary">
+                            <i class="fas fa-download"></i> <span class="en">Download PDF</span><span class="ar">تنزيل PDF</span>
+                        </a>
+                        <button id="view-pdf-btn" class="btn secondary">
+                            <i class="fas fa-eye"></i> <span class="en">View PDF Online</span><span class="ar">عرض PDF عبر الإنترنت</span>
+                        </button>
+                    </div>
+                    
+                    <div id="pdf-viewer-container" style="display: none;">
+                        <div class="pdf-toolbar">
+                            <button id="prev-page" class="btn secondary">
+                                <i class="fas fa-chevron-left"></i> <span class="en">Previous</span><span class="ar">السابق</span>
+                            </button>
+                            <span id="page-info">
+                                <span class="en">Page</span><span class="ar">صفحة</span> <span id="page-num">1</span> <span class="en">of</span><span class="ar">من</span> <span id="page-count">0</span>
+                            </span>
+                            <button id="next-page" class="btn secondary">
+                                <span class="en">Next</span><span class="ar">التالي</span> <i class="fas fa-chevron-right"></i>
+                            </button>
+                            <div class="zoom-controls">
+                                <button id="zoom-out" class="btn secondary"><i class="fas fa-search-minus"></i></button>
+                                <span id="zoom-level">100%</span>
+                                <button id="zoom-in" class="btn secondary"><i class="fas fa-search-plus"></i></button>
+                            </div>
+                        </div>
+                        <canvas id="pdf-viewer" class="pdf-container"></canvas>
+                    </div>
+                    
+                    <h3><span class="en">Additional Resources</span><span class="ar">موارد إضافية</span></h3>
+                    
+                    <div class="resources-grid">
+                        <div class="resource-card">
+                            <i class="fas fa-book-medical"></i>
+                            <h4><span class="en">Pharmacy Reference Books</span><span class="ar">كتب مرجعية للصيدلة</span></h4>
+                            <p><span class="en">Recommended textbooks for further study.</span>
+                            <span class="ar">الكتب المدرسية الموصى بها لمزيد من الدراسة.</span></p>
+                            <a href="#" class="btn secondary"><span class="en">View List</span><span class="ar">عرض القائمة</span></a>
+                        </div>
+                        
+                        <div class="resource-card">
+                            <i class="fas fa-vial"></i>
+                            <h4><span class="en">Laboratory Resources</span><span class="ar">موارد المختبر</span></h4>
+                            <p><span class="en">Lab guidelines and procedures.</span>
+                            <span class="ar">إرشادات وإجراءات المختبر.</span></p>
+                            <a href="#" class="btn secondary"><span class="en">Access Now</span><span class="ar">الوصول الآن</span></a>
+                        </div>
+                        
+                        <div class="resource-card">
+                            <i class="fas fa-file-alt"></i>
+                            <h4><span class="en">Practice Exams</span><span class="ar">امتحانات تجريبية</span></h4>
+                            <p><span class="en">Sample questions to test your knowledge.</span>
+                            <span class="ar">أسئلة نموذجية لاختبار معرفتك.</span></p>
+                            <a href="#" class="btn secondary"><span class="en">Start Practice</span><span class="ar">بدء الممارسة</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tikrit Pharmacy Curriculum | <span class="en">Created to help students excel</span><span class="ar">تم إنشاؤه لمساعدة الطلاب على التفوق</span></p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // PDF.js initialization
+        const pdfViewerContainer = document.getElementById('pdf-viewer-container');
+        const viewPdfBtn = document.getElementById('view-pdf-btn');
+        const canvas = document.getElementById('pdf-viewer');
+        const prevButton = document.getElementById('prev-page');
+        const nextButton = document.getElementById('next-page');
+        const pageNumSpan = document.getElementById('page-num');
+        const pageCountSpan = document.getElementById('page-count');
+        const zoomInBtn = document.getElementById('zoom-in');
+        const zoomOutBtn = document.getElementById('zoom-out');
+        const zoomLevelSpan = document.getElementById('zoom-level');
+        
+        let pdfDoc = null;
+        let pageNum = 1;
+        let pageRendering = false;
+        let pageNumPending = null;
+        let scale = 1.0;
+        
+        // Initialize PDF.js
+        const pdfjsLib = window['pdfjs-dist/build/pdf'];
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
+        
+        // Toggle PDF viewer
+        if (viewPdfBtn) {
+            viewPdfBtn.addEventListener('click', function() {
+                if (pdfViewerContainer.style.display === 'none') {
+                    pdfViewerContainer.style.display = 'block';
+                    viewPdfBtn.innerHTML = '<i class="fas fa-eye-slash"></i> <span class="en">Hide PDF</span><span class="ar">إخفاء PDF</span>';
+                    
+                    // Initialize PDF if not already loaded
+                    if (!pdfDoc) {
+                        const pdfUrl = 'منهاج تنافسي صيدلة تكريت 2025 FE.pdf';
+                        loadPdf(pdfUrl);
+                    }
+                } else {
+                    pdfViewerContainer.style.display = 'none';
+                    viewPdfBtn.innerHTML = '<i class="fas fa-eye"></i> <span class="en">View PDF Online</span><span class="ar">عرض PDF عبر الإنترنت</span>';
+                }
+            });
+        }
+        
+        // Load PDF function
+        function loadPdf(url) {
+            pdfjsLib.getDocument(url).promise.then(function(pdf) {
+                pdfDoc = pdf;
+                pageCountSpan.textContent = pdf.numPages;
+                renderPage(pageNum);
+            }).catch(function(error) {
+                console.error('Error loading PDF:', error);
+                canvas.insertAdjacentHTML('beforebegin', 
+                    '<div class="alert alert-error">Error loading PDF. Please download it instead.</div>');
+            });
+        }
+        
+        // Render page function
+        function renderPage(num) {
+            pageRendering = true;
+            
+            pdfDoc.getPage(num).then(function(page) {
+                const viewport = page.getViewport({ scale: scale });
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+                
+                const renderContext = {
+                    canvasContext: canvas.getContext('2d'),
+                    viewport: viewport
+                };
+                
+                const renderTask = page.render(renderContext);
+                
+                renderTask.promise.then(function() {
+                    pageRendering = false;
+                    
+                    if (pageNumPending !== null) {
+                        renderPage(pageNumPending);
+                        pageNumPending = null;
+                    }
+                });
+            });
+            
+            pageNumSpan.textContent = num;
+        }
+        
+        // Previous page function
+        function previousPage() {
+            if (pageNum <= 1) {
+                return;
+            }
+            pageNum--;
+            queueRenderPage(pageNum);
+        }
+        
+        // Next page function
+        function nextPage() {
+            if (pageNum >= pdfDoc.numPages) {
+                return;
+            }
+            pageNum++;
+            queueRenderPage(pageNum);
+        }
+        
+        // Queue page rendering
+        function queueRenderPage(num) {
+            if (pageRendering) {
+                pageNumPending = num;
+            } else {
+                renderPage(num);
+            }
+        }
+        
+        // Zoom functions
+        function zoomIn() {
+            scale += 0.1;
+            zoomLevelSpan.textContent = Math.round(scale * 100) + '%';
+            renderPage(pageNum);
+        }
+        
+        function zoomOut() {
+            if (scale <= 0.2) return;
+            scale -= 0.1;
+            zoomLevelSpan.textContent = Math.round(scale * 100) + '%';
+            renderPage(pageNum);
+        }
+        
+        // Add event listeners
+        if (prevButton) prevButton.addEventListener('click', previousPage);
+        if (nextButton) nextButton.addEventListener('click', nextPage);
+        if (zoomInBtn) zoomInBtn.addEventListener('click', zoomIn);
+        if (zoomOutBtn) zoomOutBtn.addEventListener('click', zoomOut);
+    </script>
+</body>
+</html>

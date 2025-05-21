@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تصفح محسن - صيدلة تكريت 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            direction: rtl;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .advanced-search {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            margin: -50px auto 2rem;
+            max-width: 1000px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 10;
+        }
+        
+        .search-tabs {
+            display: flex;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .search-tab {
+            padding: 1rem 2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            color: #666;
+        }
+        
+        .search-tab.active {
+            color: var(--primary-color);
+        }
+        
+        .search-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--primary-color);
+        }
+        
+        .search-panel {
+            display: none;
+        }
+        
+        .search-panel.active {
+            display: block;
+        }
+        
+        .search-grid {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 1rem;
+            align-items: end;
+        }
+        
+        .search-field {
+            margin-bottom: 1rem;
+        }
+        
+        .search-field label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .search-field input,
+        .search-field select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-field input:focus,
+        .search-field select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .search-actions {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .search-btn {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .search-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(58, 123, 213, 0.3);
+        }
+        
+        .clear-btn {
+            background: #6c757d;
+        }
+        
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .results-count {
+            font-size: 1.1rem;
+            color: #495057;
+        }
+        
+        .view-toggle {
+            display: flex;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        
+        .view-btn {
+            padding: 8px 15px;
+            background: none;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .view-btn.active {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .list-view .page-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .list-view .enhanced-page-card {
+            display: flex;
+            padding: 1.5rem;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .list-view .page-content {
+            flex: 1;
+        }
+        
+        .list-view .page-actions {
+            flex-shrink: 0;
+        }
+        
+        .bookmark-section {
+            background: #fff8e6;
+            border: 1px solid #ffc107;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .bookmark-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #856404;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .bookmark-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .bookmark-item {
+            background: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            color: #495057;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .bookmark-item:hover {
+            background: #ffc107;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .export-section {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        
+        .export-btn {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        
+        .export-btn:hover {
+            transform: scale(1.1);
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .advanced-search {
+                margin: -30px 1rem 2rem;
+                padding: 1.5rem;
+            }
+            
+            .search-tabs {
+                overflow-x: auto;
+            }
+            
+            .search-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .results-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>منهاج تنافسي صيدلة تكريت 2025</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> الرئيسية</a></li>
+                    <li><a href="en/index.html"><i class="fas fa-book"></i> الإنجليزية</a></li>
+                    <li><a href="ar/index.html"><i class="fas fa-book-open"></i> العربية</a></li>
+                    <li><a href="enhanced-browse.html" class="active"><i class="fas fa-search"></i> البحث المتقدم</a></li>
+                </ul>
+            </nav>
+            <div class="language-toggle">
+                <button id="toggleLanguage"><i class="fas fa-language"></i> <span class="toggle-text">English</span></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">البحث المتقدم في المنهج</h1>
+            <p class="hero-subtitle">اكتشف المحتوى بطريقة ذكية وسريعة</p>
+            
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-card">
+                    <span class="stat-number" id="totalPages">406</span>
+                    <span class="stat-label">صفحة دراسية</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" id="totalWords">170k+</span>
+                    <span class="stat-label">كلمة</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" id="loadedPages">0</span>
+                    <span class="stat-label">صفحة محملة</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" id="searchCount">0</span>
+                    <span class="stat-label">عملية بحث</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <section class="advanced-search">
+                <div class="search-tabs">
+                    <button class="search-tab active" data-tab="simple">بحث بسيط</button>
+                    <button class="search-tab" data-tab="advanced">بحث متقدم</button>
+                    <button class="search-tab" data-tab="category">حسب الفئة</button>
+                </div>
+
+                <!-- Simple Search -->
+                <div class="search-panel active" id="simple-search">
+                    <div class="search-grid">
+                        <div>
+                            <div class="search-field">
+                                <label for="simple-query">البحث في المحتوى</label>
+                                <input type="text" id="simple-query" placeholder="ابحث عن الأدوية، المفاهيم، المواضيع...">
+                            </div>
+                        </div>
+                        <div class="search-actions">
+                            <button class="search-btn" onclick="performSimpleSearch()">
+                                <i class="fas fa-search"></i> بحث
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Search -->
+                <div class="search-panel" id="advanced-search">
+                    <div class="search-grid">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div class="search-field">
+                                <label for="adv-query">النص المطلوب</label>
+                                <input type="text" id="adv-query" placeholder="المصطلح الأساسي">
+                            </div>
+                            <div class="search-field">
+                                <label for="exclude-query">استبعاد</label>
+                                <input type="text" id="exclude-query" placeholder="كلمات للاستبعاد">
+                            </div>
+                            <div class="search-field">
+                                <label for="category-filter">الفئة</label>
+                                <select id="category-filter">
+                                    <option value="">جميع الفئات</option>
+                                    <option value="drug-design">تصميم الأدوية</option>
+                                    <option value="pharmacology">علم الأدوية</option>
+                                    <option value="chemistry">الكيمياء</option>
+                                    <option value="calculations">الحسابات</option>
+                                </select>
+                            </div>
+                            <div class="search-field">
+                                <label for="page-range">نطاق الصفحات</label>
+                                <input type="text" id="page-range" placeholder="1-50 أو 100,200,300">
+                            </div>
+                        </div>
+                        <div class="search-actions">
+                            <button class="search-btn" onclick="performAdvancedSearch()">
+                                <i class="fas fa-search-plus"></i> بحث متقدم
+                            </button>
+                            <button class="search-btn clear-btn" onclick="clearSearch()">
+                                <i class="fas fa-times"></i> مسح
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category Search -->
+                <div class="search-panel" id="category-search">
+                    <div class="category-buttons" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <button class="category-btn" onclick="searchByCategory('drug-design')">
+                            <i class="fas fa-pills"></i>
+                            <span>تصميم الأدوية</span>
+                        </button>
+                        <button class="category-btn" onclick="searchByCategory('pharmacology')">
+                            <i class="fas fa-heartbeat"></i>
+                            <span>علم الأدوية</span>
+                        </button>
+                        <button class="category-btn" onclick="searchByCategory('chemistry')">
+                            <i class="fas fa-flask"></i>
+                            <span>الكيمياء الصيدلانية</span>
+                        </button>
+                        <button class="category-btn" onclick="searchByCategory('calculations')">
+                            <i class="fas fa-calculator"></i>
+                            <span>الحسابات</span>
+                        </button>
+                        <button class="category-btn" onclick="searchByCategory('toxicology')">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>علم السموم</span>
+                        </button>
+                        <button class="category-btn" onclick="searchByCategory('formulation')">
+                            <i class="fas fa-capsules"></i>
+                            <span>تركيب الأدوية</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bookmarks -->
+            <section class="bookmark-section" id="bookmarkSection" style="display: none;">
+                <div class="bookmark-title">
+                    <i class="fas fa-bookmark"></i>
+                    الصفحات المحفوظة
+                </div>
+                <div class="bookmark-list" id="bookmarkList">
+                    <!-- Bookmarks will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Results -->
+            <section class="results-section">
+                <div class="results-header" id="resultsHeader" style="display: none;">
+                    <div class="results-count" id="resultsCount">0 نتيجة</div>
+                    <div class="view-toggle">
+                        <button class="view-btn active" onclick="setView('grid')" data-view="grid">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button class="view-btn" onclick="setView('list')" data-view="list">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="page-grid" id="resultsGrid">
+                    <!-- Results will be displayed here -->
+                </div>
+
+                <div class="pagination-container" id="paginationContainer" style="display: none;">
+                    <!-- Pagination will be added here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Export Section -->
+    <div class="export-section">
+        <button class="export-btn" onclick="showExportOptions()" title="تصدير النتائج">
+            <i class="fas fa-download"></i>
+        </button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 منهاج صيدلة تكريت | نسخة محسنة للبحث والتصفح</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/content-loader.js"></script>
+    <script src="js/notifications.js"></script>
+    <script>
+        let searchCount = 0;
+        let currentResults = [];
+        let currentView = 'grid';
+
+        // Initialize enhanced browser
+        document.addEventListener('DOMContentLoaded', async () => {
+            initializeTabs();
+            initializeCategoryButtons();
+            loadBookmarks();
+            
+            // Wait for content loader to initialize
+            if (window.contentLoader) {
+                updateStats();
+            } else {
+                setTimeout(updateStats, 2000);
+            }
+        });
+
+        function initializeTabs() {
+            document.querySelectorAll('.search-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const targetTab = tab.dataset.tab;
+                    
+                    document.querySelectorAll('.search-tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.search-panel').forEach(p => p.classList.remove('active'));
+                    
+                    tab.classList.add('active');
+                    document.getElementById(`${targetTab}-search`).classList.add('active');
+                });
+            });
+        }
+
+        function initializeCategoryButtons() {
+            const style = document.createElement('style');
+            style.textContent = `
+                .category-btn {
+                    padding: 1.5rem;
+                    background: white;
+                    border: 2px solid #e9ecef;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 0.5rem;
+                }
+                
+                .category-btn:hover {
+                    border-color: var(--primary-color);
+                    transform: translateY(-3px);
+                    box-shadow: 0 5px 15px rgba(58, 123, 213, 0.2);
+                }
+                
+                .category-btn i {
+                    font-size: 2rem;
+                    color: var(--primary-color);
+                }
+                
+                .category-btn span {
+                    font-weight: 500;
+                    color: #495057;
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        async function performSimpleSearch() {
+            const query = document.getElementById('simple-query').value.trim();
+            if (!query) return;
+
+            showLoading();
+            searchCount++;
+            updateSearchCount();
+
+            try {
+                const results = await window.contentLoader.searchContent(query, {
+                    maxResults: 50,
+                    includePreview: true
+                });
+                
+                displayResults(results, `البحث عن: "${query}"`);
+            } catch (error) {
+                showError('خطأ في البحث');
+            } finally {
+                hideLoading();
+            }
+        }
+
+        async function performAdvancedSearch() {
+            const query = document.getElementById('adv-query').value.trim();
+            const exclude = document.getElementById('exclude-query').value.trim();
+            const category = document.getElementById('category-filter').value;
+            const pageRange = document.getElementById('page-range').value.trim();
+
+            if (!query) return;
+
+            showLoading();
+            searchCount++;
+            updateSearchCount();
+
+            try {
+                let results = await window.contentLoader.searchContent(query, {
+                    maxResults: 100,
+                    includePreview: true
+                });
+
+                // Apply exclude filter
+                if (exclude) {
+                    const excludeWords = exclude.toLowerCase().split(' ');
+                    results = results.filter(result => {
+                        const content = (result.title + ' ' + result.preview).toLowerCase();
+                        return !excludeWords.some(word => content.includes(word));
+                    });
+                }
+
+                // Apply category filter
+                if (category) {
+                    results = results.filter(result => matchesCategory(result, category));
+                }
+
+                // Apply page range filter
+                if (pageRange) {
+                    const allowedPages = parsePageRange(pageRange);
+                    results = results.filter(result => allowedPages.includes(result.pageNumber));
+                }
+
+                displayResults(results, `بحث متقدم: "${query}"`);
+            } catch (error) {
+                showError('خطأ في البحث المتقدم');
+            } finally {
+                hideLoading();
+            }
+        }
+
+        async function searchByCategory(category) {
+            showLoading();
+            searchCount++;
+            updateSearchCount();
+
+            try {
+                const categoryKeywords = {
+                    'drug-design': ['تصميم', 'structure', 'molecular', 'design'],
+                    'pharmacology': ['أدوية', 'drug', 'receptor', 'pharmacology'],
+                    'chemistry': ['كيمياء', 'chemistry', 'chemical', 'reaction'],
+                    'calculations': ['حساب', 'calculation', 'formula', 'equation'],
+                    'toxicology': ['سموم', 'toxicity', 'poison', 'toxic'],
+                    'formulation': ['تركيب', 'formulation', 'tablet', 'capsule']
+                };
+
+                const keywords = categoryKeywords[category] || [];
+                let allResults = [];
+
+                for (const keyword of keywords) {
+                    const results = await window.contentLoader.searchContent(keyword, {
+                        maxResults: 30,
+                        includePreview: true
+                    });
+                    allResults = allResults.concat(results);
+                }
+
+                // Remove duplicates and sort by relevance
+                const uniqueResults = allResults.filter((result, index, self) => 
+                    index === self.findIndex(r => r.pageNumber === result.pageNumber)
+                );
+
+                uniqueResults.sort((a, b) => (b.relevance || 0) - (a.relevance || 0));
+
+                const categoryNames = {
+                    'drug-design': 'تصميم الأدوية',
+                    'pharmacology': 'علم الأدوية',
+                    'chemistry': 'الكيمياء الصيدلانية',
+                    'calculations': 'الحسابات الصيدلانية',
+                    'toxicology': 'علم السموم',
+                    'formulation': 'تركيب الأدوية'
+                };
+
+                displayResults(uniqueResults, `فئة: ${categoryNames[category]}`);
+            } catch (error) {
+                showError('خطأ في البحث حسب الفئة');
+            } finally {
+                hideLoading();
+            }
+        }
+
+        function matchesCategory(result, category) {
+            const categories = {
+                'drug-design': ['تصميم', 'design', 'structure', 'molecular'],
+                'pharmacology': ['أدوية', 'drug', 'pharmacology', 'receptor'],
+                'chemistry': ['كيمياء', 'chemistry', 'chemical', 'reaction'],
+                'calculations': ['حساب', 'calculation', 'formula', 'equation'],
+                'toxicology': ['سموم', 'toxicity', 'poison', 'toxic'],
+                'formulation': ['تركيب', 'formulation', 'tablet', 'capsule']
+            };
+
+            const keywords = categories[category] || [];
+            const searchText = (result.title + ' ' + result.preview).toLowerCase();
+            return keywords.some(keyword => searchText.includes(keyword.toLowerCase()));
+        }
+
+        function parsePageRange(rangeStr) {
+            const pages = [];
+            const parts = rangeStr.split(',');
+            
+            for (const part of parts) {
+                if (part.includes('-')) {
+                    const [start, end] = part.split('-').map(x => parseInt(x.trim()));
+                    for (let i = start; i <= end; i++) {
+                        pages.push(i);
+                    }
+                } else {
+                    pages.push(parseInt(part.trim()));
+                }
+            }
+            
+            return pages.filter(p => !isNaN(p));
+        }
+
+        function displayResults(results, searchTitle) {
+            currentResults = results;
+            
+            const resultsHeader = document.getElementById('resultsHeader');
+            const resultsCount = document.getElementById('resultsCount');
+            const resultsGrid = document.getElementById('resultsGrid');
+
+            resultsHeader.style.display = 'flex';
+            resultsCount.textContent = `${results.length} نتيجة - ${searchTitle}`;
+
+            if (results.length === 0) {
+                resultsGrid.innerHTML = `
+                    <div class="no-results">
+                        <i class="fas fa-search"></i>
+                        <h3>لم يتم العثور على نتائج</h3>
+                        <p>حاول تعديل مصطلحات البحث</p>
+                    </div>
+                `;
+                return;
+            }
+
+            renderResults(results);
+        }
+
+        function renderResults(results) {
+            const grid = document.getElementById('resultsGrid');
+            
+            grid.innerHTML = results.map(result => `
+                <div class="enhanced-page-card" data-page="${result.pageNumber}">
+                    <div class="page-header">
+                        <div class="page-number">صفحة ${result.pageNumber}</div>
+                        <div class="page-stats">
+                            <span class="word-count">${result.wordCount || 0} كلمة</span>
+                            ${result.relevance > 1 ? `<span class="relevance-score">صلة: ${Math.round(result.relevance * 10)}/10</span>` : ''}
+                        </div>
+                    </div>
+                    
+                    <div class="page-content">
+                        <h3 class="page-title">${result.title}</h3>
+                        <div class="page-preview">${result.preview}</div>
+                    </div>
+                    
+                    <div class="page-actions">
+                        <a href="${result.link || `#page-${result.pageNumber}`}" class="view-btn primary">
+                            <i class="fas fa-eye"></i> عرض الصفحة
+                        </a>
+                        <button class="bookmark-btn" onclick="bookmarkPage(${result.pageNumber})">
+                            <i class="fas fa-bookmark"></i>
+                        </button>
+                        <button class="share-btn" onclick="sharePage(${result.pageNumber})">
+                            <i class="fas fa-share"></i>
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function setView(view) {
+            currentView = view;
+            const container = document.querySelector('.results-section');
+            const buttons = document.querySelectorAll('.view-btn');
+            
+            buttons.forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`[data-view="${view}"]`).classList.add('active');
+            
+            container.className = `results-section ${view}-view`;
+        }
+
+        function clearSearch() {
+            document.getElementById('adv-query').value = '';
+            document.getElementById('exclude-query').value = '';
+            document.getElementById('category-filter').value = '';
+            document.getElementById('page-range').value = '';
+            
+            document.getElementById('resultsHeader').style.display = 'none';
+            document.getElementById('resultsGrid').innerHTML = '';
+        }
+
+        function loadBookmarks() {
+            const bookmarks = JSON.parse(localStorage.getItem('bookmarked_pages') || '[]');
+            const bookmarkSection = document.getElementById('bookmarkSection');
+            const bookmarkList = document.getElementById('bookmarkList');
+
+            if (bookmarks.length > 0) {
+                bookmarkSection.style.display = 'block';
+                bookmarkList.innerHTML = bookmarks.map(page => 
+                    `<a href="#page-${page}" class="bookmark-item">صفحة ${page}</a>`
+                ).join('');
+            }
+        }
+
+        function updateStats() {
+            if (window.contentLoader) {
+                const stats = window.contentLoader.getPageStats();
+                document.getElementById('totalPages').textContent = stats.totalPages;
+                document.getElementById('totalWords').textContent = (stats.totalWords / 1000).toFixed(0) + 'k+';
+                document.getElementById('loadedPages').textContent = stats.loadedPages;
+            }
+        }
+
+        function updateSearchCount() {
+            document.getElementById('searchCount').textContent = searchCount;
+        }
+
+        function showExportOptions() {
+            if (window.notificationManager) {
+                window.notificationManager.show({
+                    type: 'info',
+                    title: '📋 تصدير النتائج',
+                    message: 'اختر نوع التصدير المطلوب',
+                    persistent: true,
+                    actions: [
+                        {
+                            text: 'تصدير النتائج الحالية',
+                            action: 'exportCurrentResults()'
+                        },
+                        {
+                            text: 'تصدير الكل',
+                            action: 'exportAllContent()'
+                        }
+                    ]
+                });
+            }
+        }
+
+        function exportCurrentResults() {
+            if (currentResults.length === 0) {
+                showError('لا توجد نتائج للتصدير');
+                return;
+            }
+
+            const content = currentResults.map(result => 
+                `=== صفحة ${result.pageNumber} ===\n${result.title}\n\n${result.preview}\n\n`
+            ).join('');
+
+            downloadFile(content, 'search-results.txt');
+        }
+
+        function exportAllContent() {
+            if (window.contentLoader) {
+                window.contentLoader.exportContent('txt');
+            }
+        }
+
+        function downloadFile(content, filename) {
+            const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function showLoading() {
+            const loading = document.createElement('div');
+            loading.className = 'loading-overlay';
+            loading.innerHTML = `
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>جاري البحث...</p>
+                </div>
+            `;
+            document.body.appendChild(loading);
+        }
+
+        function hideLoading() {
+            const loading = document.querySelector('.loading-overlay');
+            if (loading) {
+                loading.remove();
+            }
+        }
+
+        function showError(message) {
+            if (window.notificationManager) {
+                window.notificationManager.show({
+                    type: 'error',
+                    title: '❌ خطأ',
+                    message,
+                    duration: 5000
+                });
+            }
+        }
+
+        // Enhanced bookmark and share functions
+        window.bookmarkPage = function(pageNumber) {
+            const bookmarks = JSON.parse(localStorage.getItem('bookmarked_pages') || '[]');
+            if (!bookmarks.includes(pageNumber)) {
+                bookmarks.push(pageNumber);
+                localStorage.setItem('bookmarked_pages', JSON.stringify(bookmarks));
+                loadBookmarks();
+                
+                if (window.notificationManager) {
+                    window.notificationManager.show({
+                        type: 'success',
+                        title: '🔖 تم الحفظ',
+                        message: `تم حفظ الصفحة ${pageNumber} في المفضلة`,
+                        duration: 2000
+                    });
+                }
+            }
+        };
+
+        window.sharePage = function(pageNumber) {
+            const url = `${window.location.origin}${window.location.pathname}#page-${pageNumber}`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: `صفحة ${pageNumber} - منهج صيدلة تكريت`,
+                    url: url
+                });
+            } else {
+                navigator.clipboard.writeText(url).then(() => {
+                    if (window.notificationManager) {
+                        window.notificationManager.show({
+                            type: 'success',
+                            title: '📋 تم النسخ',
+                            message: 'تم نسخ رابط الصفحة',
+                            duration: 2000
+                        });
+                    }
+                });
+            }
+        };
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey || e.metaKey) {
+                switch (e.key) {
+                    case 'f':
+                        e.preventDefault();
+                        document.getElementById('simple-query').focus();
+                        break;
+                    case 'k':
+                        e.preventDefault();
+                        document.querySelector('.search-tab[data-tab="advanced"]').click();
+                        break;
+                    case 'e':
+                        e.preventDefault();
+                        showExportOptions();
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

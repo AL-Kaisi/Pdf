@@ -1,0 +1,2444 @@
+{
+  "filename": "\u0645\u0646\u0647\u0627\u062c \u062a\u0646\u0627\u0641\u0633\u064a \u0635\u064a\u062f\u0644\u0629 \u062a\u0643\u0631\u064a\u062a 2025 FE.pdf",
+  "extraction_date": "2025-05-21T21:46:59.415551",
+  "total_pages": 406,
+  "processed_pages": 406,
+  "page_info": [
+    {
+      "page_number": 1,
+      "text_file": "page_0001.txt",
+      "char_count": 4712,
+      "word_count": 762
+    },
+    {
+      "page_number": 2,
+      "text_file": "page_0002.txt",
+      "char_count": 2125,
+      "word_count": 328
+    },
+    {
+      "page_number": 3,
+      "text_file": "page_0003.txt",
+      "char_count": 5160,
+      "word_count": 787
+    },
+    {
+      "page_number": 4,
+      "text_file": "page_0004.txt",
+      "char_count": 2613,
+      "word_count": 407
+    },
+    {
+      "page_number": 5,
+      "text_file": "page_0005.txt",
+      "char_count": 4453,
+      "word_count": 680
+    },
+    {
+      "page_number": 6,
+      "text_file": "page_0006.txt",
+      "char_count": 4048,
+      "word_count": 627
+    },
+    {
+      "page_number": 7,
+      "text_file": "page_0007.txt",
+      "char_count": 7468,
+      "word_count": 1135
+    },
+    {
+      "page_number": 8,
+      "text_file": "page_0008.txt",
+      "char_count": 4923,
+      "word_count": 769
+    },
+    {
+      "page_number": 9,
+      "text_file": "page_0009.txt",
+      "char_count": 3171,
+      "word_count": 484
+    },
+    {
+      "page_number": 10,
+      "text_file": "page_0010.txt",
+      "char_count": 6345,
+      "word_count": 1058
+    },
+    {
+      "page_number": 11,
+      "text_file": "page_0011.txt",
+      "char_count": 1395,
+      "word_count": 230
+    },
+    {
+      "page_number": 12,
+      "text_file": "page_0012.txt",
+      "char_count": 4968,
+      "word_count": 878
+    },
+    {
+      "page_number": 13,
+      "text_file": "page_0013.txt",
+      "char_count": 3416,
+      "word_count": 570
+    },
+    {
+      "page_number": 14,
+      "text_file": "page_0014.txt",
+      "char_count": 4925,
+      "word_count": 832
+    },
+    {
+      "page_number": 15,
+      "text_file": "page_0015.txt",
+      "char_count": 5854,
+      "word_count": 907
+    },
+    {
+      "page_number": 16,
+      "text_file": "page_0016.txt",
+      "char_count": 4001,
+      "word_count": 617
+    },
+    {
+      "page_number": 17,
+      "text_file": "page_0017.txt",
+      "char_count": 4806,
+      "word_count": 780
+    },
+    {
+      "page_number": 18,
+      "text_file": "page_0018.txt",
+      "char_count": 6012,
+      "word_count": 934
+    },
+    {
+      "page_number": 19,
+      "text_file": "page_0019.txt",
+      "char_count": 4058,
+      "word_count": 671
+    },
+    {
+      "page_number": 20,
+      "text_file": "page_0020.txt",
+      "char_count": 5008,
+      "word_count": 819
+    },
+    {
+      "page_number": 21,
+      "text_file": "page_0021.txt",
+      "char_count": 6165,
+      "word_count": 848
+    },
+    {
+      "page_number": 22,
+      "text_file": "page_0022.txt",
+      "char_count": 4466,
+      "word_count": 695
+    },
+    {
+      "page_number": 23,
+      "text_file": "page_0023.txt",
+      "char_count": 5424,
+      "word_count": 809
+    },
+    {
+      "page_number": 24,
+      "text_file": "page_0024.txt",
+      "char_count": 5866,
+      "word_count": 913
+    },
+    {
+      "page_number": 25,
+      "text_file": "page_0025.txt",
+      "char_count": 2555,
+      "word_count": 373
+    },
+    {
+      "page_number": 26,
+      "text_file": "page_0026.txt",
+      "char_count": 2552,
+      "word_count": 397
+    },
+    {
+      "page_number": 27,
+      "text_file": "page_0027.txt",
+      "char_count": 2628,
+      "word_count": 374
+    },
+    {
+      "page_number": 28,
+      "text_file": "page_0028.txt",
+      "char_count": 4485,
+      "word_count": 646
+    },
+    {
+      "page_number": 29,
+      "text_file": "page_0029.txt",
+      "char_count": 1903,
+      "word_count": 279
+    },
+    {
+      "page_number": 30,
+      "text_file": "page_0030.txt",
+      "char_count": 5785,
+      "word_count": 896
+    },
+    {
+      "page_number": 31,
+      "text_file": "page_0031.txt",
+      "char_count": 6810,
+      "word_count": 1001
+    },
+    {
+      "page_number": 32,
+      "text_file": "page_0032.txt",
+      "char_count": 3643,
+      "word_count": 561
+    },
+    {
+      "page_number": 33,
+      "text_file": "page_0033.txt",
+      "char_count": 3699,
+      "word_count": 583
+    },
+    {
+      "page_number": 34,
+      "text_file": "page_0034.txt",
+      "char_count": 3435,
+      "word_count": 507
+    },
+    {
+      "page_number": 35,
+      "text_file": "page_0035.txt",
+      "char_count": 5793,
+      "word_count": 901
+    },
+    {
+      "page_number": 36,
+      "text_file": "page_0036.txt",
+      "char_count": 3390,
+      "word_count": 533
+    },
+    {
+      "page_number": 37,
+      "text_file": "page_0037.txt",
+      "char_count": 4121,
+      "word_count": 644
+    },
+    {
+      "page_number": 38,
+      "text_file": "page_0038.txt",
+      "char_count": 3295,
+      "word_count": 437
+    },
+    {
+      "page_number": 39,
+      "text_file": "page_0039.txt",
+      "char_count": 6280,
+      "word_count": 1052
+    },
+    {
+      "page_number": 40,
+      "text_file": "page_0040.txt",
+      "char_count": 5586,
+      "word_count": 890
+    },
+    {
+      "page_number": 41,
+      "text_file": "page_0041.txt",
+      "char_count": 5627,
+      "word_count": 936
+    },
+    {
+      "page_number": 42,
+      "text_file": "page_0042.txt",
+      "char_count": 2415,
+      "word_count": 380
+    },
+    {
+      "page_number": 43,
+      "text_file": "page_0043.txt",
+      "char_count": 3203,
+      "word_count": 501
+    },
+    {
+      "page_number": 44,
+      "text_file": "page_0044.txt",
+      "char_count": 3852,
+      "word_count": 588
+    },
+    {
+      "page_number": 45,
+      "text_file": "page_0045.txt",
+      "char_count": 3676,
+      "word_count": 541
+    },
+    {
+      "page_number": 46,
+      "text_file": "page_0046.txt",
+      "char_count": 2772,
+      "word_count": 403
+    },
+    {
+      "page_number": 47,
+      "text_file": "page_0047.txt",
+      "char_count": 3465,
+      "word_count": 528
+    },
+    {
+      "page_number": 48,
+      "text_file": "page_0048.txt",
+      "char_count": 1589,
+      "word_count": 242
+    },
+    {
+      "page_number": 49,
+      "text_file": "page_0049.txt",
+      "char_count": 911,
+      "word_count": 144
+    },
+    {
+      "page_number": 50,
+      "text_file": "page_0050.txt",
+      "char_count": 3574,
+      "word_count": 529
+    },
+    {
+      "page_number": 51,
+      "text_file": "page_0051.txt",
+      "char_count": 3333,
+      "word_count": 484
+    },
+    {
+      "page_number": 52,
+      "text_file": "page_0052.txt",
+      "char_count": 1083,
+      "word_count": 154
+    },
+    {
+      "page_number": 53,
+      "text_file": "page_0053.txt",
+      "char_count": 2272,
+      "word_count": 319
+    },
+    {
+      "page_number": 54,
+      "text_file": "page_0054.txt",
+      "char_count": 6663,
+      "word_count": 980
+    },
+    {
+      "page_number": 55,
+      "text_file": "page_0055.txt",
+      "char_count": 6944,
+      "word_count": 1000
+    },
+    {
+      "page_number": 56,
+      "text_file": "page_0056.txt",
+      "char_count": 5833,
+      "word_count": 848
+    },
+    {
+      "page_number": 57,
+      "text_file": "page_0057.txt",
+      "char_count": 6852,
+      "word_count": 997
+    },
+    {
+      "page_number": 58,
+      "text_file": "page_0058.txt",
+      "char_count": 2328,
+      "word_count": 352
+    },
+    {
+      "page_number": 59,
+      "text_file": "page_0059.txt",
+      "char_count": 166,
+      "word_count": 20
+    },
+    {
+      "page_number": 60,
+      "text_file": "page_0060.txt",
+      "char_count": 3881,
+      "word_count": 612
+    },
+    {
+      "page_number": 61,
+      "text_file": "page_0061.txt",
+      "char_count": 208,
+      "word_count": 27
+    },
+    {
+      "page_number": 62,
+      "text_file": "page_0062.txt",
+      "char_count": 237,
+      "word_count": 31
+    },
+    {
+      "page_number": 63,
+      "text_file": "page_0063.txt",
+      "char_count": 3425,
+      "word_count": 513
+    },
+    {
+      "page_number": 64,
+      "text_file": "page_0064.txt",
+      "char_count": 4905,
+      "word_count": 727
+    },
+    {
+      "page_number": 65,
+      "text_file": "page_0065.txt",
+      "char_count": 3281,
+      "word_count": 469
+    },
+    {
+      "page_number": 66,
+      "text_file": "page_0066.txt",
+      "char_count": 1649,
+      "word_count": 227
+    },
+    {
+      "page_number": 67,
+      "text_file": "page_0067.txt",
+      "char_count": 6644,
+      "word_count": 920
+    },
+    {
+      "page_number": 68,
+      "text_file": "page_0068.txt",
+      "char_count": 6545,
+      "word_count": 985
+    },
+    {
+      "page_number": 69,
+      "text_file": "page_0069.txt",
+      "char_count": 5068,
+      "word_count": 782
+    },
+    {
+      "page_number": 70,
+      "text_file": "page_0070.txt",
+      "char_count": 2153,
+      "word_count": 322
+    },
+    {
+      "page_number": 71,
+      "text_file": "page_0071.txt",
+      "char_count": 2974,
+      "word_count": 457
+    },
+    {
+      "page_number": 72,
+      "text_file": "page_0072.txt",
+      "char_count": 3619,
+      "word_count": 536
+    },
+    {
+      "page_number": 73,
+      "text_file": "page_0073.txt",
+      "char_count": 5994,
+      "word_count": 919
+    },
+    {
+      "page_number": 74,
+      "text_file": "page_0074.txt",
+      "char_count": 6845,
+      "word_count": 1013
+    },
+    {
+      "page_number": 75,
+      "text_file": "page_0075.txt",
+      "char_count": 2755,
+      "word_count": 437
+    },
+    {
+      "page_number": 76,
+      "text_file": "page_0076.txt",
+      "char_count": 2273,
+      "word_count": 346
+    },
+    {
+      "page_number": 77,
+      "text_file": "page_0077.txt",
+      "char_count": 3858,
+      "word_count": 602
+    },
+    {
+      "page_number": 78,
+      "text_file": "page_0078.txt",
+      "char_count": 4561,
+      "word_count": 699
+    },
+    {
+      "page_number": 79,
+      "text_file": "page_0079.txt",
+      "char_count": 3064,
+      "word_count": 465
+    },
+    {
+      "page_number": 80,
+      "text_file": "page_0080.txt",
+      "char_count": 1931,
+      "word_count": 296
+    },
+    {
+      "page_number": 81,
+      "text_file": "page_0081.txt",
+      "char_count": 3956,
+      "word_count": 599
+    },
+    {
+      "page_number": 82,
+      "text_file": "page_0082.txt",
+      "char_count": 7039,
+      "word_count": 1056
+    },
+    {
+      "page_number": 83,
+      "text_file": "page_0083.txt",
+      "char_count": 5279,
+      "word_count": 797
+    },
+    {
+      "page_number": 84,
+      "text_file": "page_0084.txt",
+      "char_count": 5434,
+      "word_count": 819
+    },
+    {
+      "page_number": 85,
+      "text_file": "page_0085.txt",
+      "char_count": 5823,
+      "word_count": 888
+    },
+    {
+      "page_number": 86,
+      "text_file": "page_0086.txt",
+      "char_count": 2745,
+      "word_count": 429
+    },
+    {
+      "page_number": 87,
+      "text_file": "page_0087.txt",
+      "char_count": 239,
+      "word_count": 33
+    },
+    {
+      "page_number": 88,
+      "text_file": "page_0088.txt",
+      "char_count": 7174,
+      "word_count": 1136
+    },
+    {
+      "page_number": 89,
+      "text_file": "page_0089.txt",
+      "char_count": 1849,
+      "word_count": 301
+    },
+    {
+      "page_number": 90,
+      "text_file": "page_0090.txt",
+      "char_count": 6589,
+      "word_count": 1015
+    },
+    {
+      "page_number": 91,
+      "text_file": "page_0091.txt",
+      "char_count": 6695,
+      "word_count": 1037
+    },
+    {
+      "page_number": 92,
+      "text_file": "page_0092.txt",
+      "char_count": 2717,
+      "word_count": 413
+    },
+    {
+      "page_number": 93,
+      "text_file": "page_0093.txt",
+      "char_count": 2457,
+      "word_count": 364
+    },
+    {
+      "page_number": 94,
+      "text_file": "page_0094.txt",
+      "char_count": 6179,
+      "word_count": 915
+    },
+    {
+      "page_number": 95,
+      "text_file": "page_0095.txt",
+      "char_count": 4617,
+      "word_count": 721
+    },
+    {
+      "page_number": 96,
+      "text_file": "page_0096.txt",
+      "char_count": 3603,
+      "word_count": 482
+    },
+    {
+      "page_number": 97,
+      "text_file": "page_0097.txt",
+      "char_count": 3868,
+      "word_count": 549
+    },
+    {
+      "page_number": 98,
+      "text_file": "page_0098.txt",
+      "char_count": 4000,
+      "word_count": 584
+    },
+    {
+      "page_number": 99,
+      "text_file": "page_0099.txt",
+      "char_count": 1759,
+      "word_count": 271
+    },
+    {
+      "page_number": 100,
+      "text_file": "page_0100.txt",
+      "char_count": 2376,
+      "word_count": 367
+    },
+    {
+      "page_number": 101,
+      "text_file": "page_0101.txt",
+      "char_count": 3988,
+      "word_count": 582
+    },
+    {
+      "page_number": 102,
+      "text_file": "page_0102.txt",
+      "char_count": 4137,
+      "word_count": 589
+    },
+    {
+      "page_number": 103,
+      "text_file": "page_0103.txt",
+      "char_count": 3810,
+      "word_count": 553
+    },
+    {
+      "page_number": 104,
+      "text_file": "page_0104.txt",
+      "char_count": 3725,
+      "word_count": 591
+    },
+    {
+      "page_number": 105,
+      "text_file": "page_0105.txt",
+      "char_count": 3651,
+      "word_count": 519
+    },
+    {
+      "page_number": 106,
+      "text_file": "page_0106.txt",
+      "char_count": 1508,
+      "word_count": 239
+    },
+    {
+      "page_number": 107,
+      "text_file": "page_0107.txt",
+      "char_count": 4125,
+      "word_count": 570
+    },
+    {
+      "page_number": 108,
+      "text_file": "page_0108.txt",
+      "char_count": 4062,
+      "word_count": 591
+    },
+    {
+      "page_number": 109,
+      "text_file": "page_0109.txt",
+      "char_count": 4088,
+      "word_count": 593
+    },
+    {
+      "page_number": 110,
+      "text_file": "page_0110.txt",
+      "char_count": 3460,
+      "word_count": 507
+    },
+    {
+      "page_number": 111,
+      "text_file": "page_0111.txt",
+      "char_count": 602,
+      "word_count": 96
+    },
+    {
+      "page_number": 112,
+      "text_file": "page_0112.txt",
+      "char_count": 3682,
+      "word_count": 494
+    },
+    {
+      "page_number": 113,
+      "text_file": "page_0113.txt",
+      "char_count": 3400,
+      "word_count": 492
+    },
+    {
+      "page_number": 114,
+      "text_file": "page_0114.txt",
+      "char_count": 3449,
+      "word_count": 510
+    },
+    {
+      "page_number": 115,
+      "text_file": "page_0115.txt",
+      "char_count": 3096,
+      "word_count": 461
+    },
+    {
+      "page_number": 116,
+      "text_file": "page_0116.txt",
+      "char_count": 3496,
+      "word_count": 541
+    },
+    {
+      "page_number": 117,
+      "text_file": "page_0117.txt",
+      "char_count": 2359,
+      "word_count": 356
+    },
+    {
+      "page_number": 118,
+      "text_file": "page_0118.txt",
+      "char_count": 1635,
+      "word_count": 240
+    },
+    {
+      "page_number": 119,
+      "text_file": "page_0119.txt",
+      "char_count": 2287,
+      "word_count": 378
+    },
+    {
+      "page_number": 120,
+      "text_file": "page_0120.txt",
+      "char_count": 2382,
+      "word_count": 366
+    },
+    {
+      "page_number": 121,
+      "text_file": "page_0121.txt",
+      "char_count": 3416,
+      "word_count": 506
+    },
+    {
+      "page_number": 122,
+      "text_file": "page_0122.txt",
+      "char_count": 4407,
+      "word_count": 673
+    },
+    {
+      "page_number": 123,
+      "text_file": "page_0123.txt",
+      "char_count": 3657,
+      "word_count": 525
+    },
+    {
+      "page_number": 124,
+      "text_file": "page_0124.txt",
+      "char_count": 678,
+      "word_count": 107
+    },
+    {
+      "page_number": 125,
+      "text_file": "page_0125.txt",
+      "char_count": 2899,
+      "word_count": 443
+    },
+    {
+      "page_number": 126,
+      "text_file": "page_0126.txt",
+      "char_count": 3776,
+      "word_count": 579
+    },
+    {
+      "page_number": 127,
+      "text_file": "page_0127.txt",
+      "char_count": 3144,
+      "word_count": 475
+    },
+    {
+      "page_number": 128,
+      "text_file": "page_0128.txt",
+      "char_count": 3220,
+      "word_count": 479
+    },
+    {
+      "page_number": 129,
+      "text_file": "page_0129.txt",
+      "char_count": 1739,
+      "word_count": 284
+    },
+    {
+      "page_number": 130,
+      "text_file": "page_0130.txt",
+      "char_count": 3279,
+      "word_count": 532
+    },
+    {
+      "page_number": 131,
+      "text_file": "page_0131.txt",
+      "char_count": 3842,
+      "word_count": 612
+    },
+    {
+      "page_number": 132,
+      "text_file": "page_0132.txt",
+      "char_count": 394,
+      "word_count": 74
+    },
+    {
+      "page_number": 133,
+      "text_file": "page_0133.txt",
+      "char_count": 1503,
+      "word_count": 235
+    },
+    {
+      "page_number": 134,
+      "text_file": "page_0134.txt",
+      "char_count": 3936,
+      "word_count": 618
+    },
+    {
+      "page_number": 135,
+      "text_file": "page_0135.txt",
+      "char_count": 4011,
+      "word_count": 637
+    },
+    {
+      "page_number": 136,
+      "text_file": "page_0136.txt",
+      "char_count": 3336,
+      "word_count": 544
+    },
+    {
+      "page_number": 137,
+      "text_file": "page_0137.txt",
+      "char_count": 1160,
+      "word_count": 185
+    },
+    {
+      "page_number": 138,
+      "text_file": "page_0138.txt",
+      "char_count": 1816,
+      "word_count": 280
+    },
+    {
+      "page_number": 139,
+      "text_file": "page_0139.txt",
+      "char_count": 3684,
+      "word_count": 609
+    },
+    {
+      "page_number": 140,
+      "text_file": "page_0140.txt",
+      "char_count": 3571,
+      "word_count": 575
+    },
+    {
+      "page_number": 141,
+      "text_file": "page_0141.txt",
+      "char_count": 2410,
+      "word_count": 389
+    },
+    {
+      "page_number": 142,
+      "text_file": "page_0142.txt",
+      "char_count": 3766,
+      "word_count": 556
+    },
+    {
+      "page_number": 143,
+      "text_file": "page_0143.txt",
+      "char_count": 2818,
+      "word_count": 461
+    },
+    {
+      "page_number": 144,
+      "text_file": "page_0144.txt",
+      "char_count": 920,
+      "word_count": 167
+    },
+    {
+      "page_number": 145,
+      "text_file": "page_0145.txt",
+      "char_count": 1326,
+      "word_count": 228
+    },
+    {
+      "page_number": 146,
+      "text_file": "page_0146.txt",
+      "char_count": 3479,
+      "word_count": 583
+    },
+    {
+      "page_number": 147,
+      "text_file": "page_0147.txt",
+      "char_count": 3395,
+      "word_count": 532
+    },
+    {
+      "page_number": 148,
+      "text_file": "page_0148.txt",
+      "char_count": 3908,
+      "word_count": 572
+    },
+    {
+      "page_number": 149,
+      "text_file": "page_0149.txt",
+      "char_count": 422,
+      "word_count": 70
+    },
+    {
+      "page_number": 150,
+      "text_file": "page_0150.txt",
+      "char_count": 3666,
+      "word_count": 615
+    },
+    {
+      "page_number": 151,
+      "text_file": "page_0151.txt",
+      "char_count": 3415,
+      "word_count": 540
+    },
+    {
+      "page_number": 152,
+      "text_file": "page_0152.txt",
+      "char_count": 2476,
+      "word_count": 391
+    },
+    {
+      "page_number": 153,
+      "text_file": "page_0153.txt",
+      "char_count": 3276,
+      "word_count": 532
+    },
+    {
+      "page_number": 154,
+      "text_file": "page_0154.txt",
+      "char_count": 3964,
+      "word_count": 681
+    },
+    {
+      "page_number": 155,
+      "text_file": "page_0155.txt",
+      "char_count": 2132,
+      "word_count": 358
+    },
+    {
+      "page_number": 156,
+      "text_file": "page_0156.txt",
+      "char_count": 3345,
+      "word_count": 553
+    },
+    {
+      "page_number": 157,
+      "text_file": "page_0157.txt",
+      "char_count": 3165,
+      "word_count": 526
+    },
+    {
+      "page_number": 158,
+      "text_file": "page_0158.txt",
+      "char_count": 3703,
+      "word_count": 563
+    },
+    {
+      "page_number": 159,
+      "text_file": "page_0159.txt",
+      "char_count": 1490,
+      "word_count": 213
+    },
+    {
+      "page_number": 160,
+      "text_file": "page_0160.txt",
+      "char_count": 290,
+      "word_count": 92
+    },
+    {
+      "page_number": 161,
+      "text_file": "page_0161.txt",
+      "char_count": 3949,
+      "word_count": 619
+    },
+    {
+      "page_number": 162,
+      "text_file": "page_0162.txt",
+      "char_count": 926,
+      "word_count": 144
+    },
+    {
+      "page_number": 163,
+      "text_file": "page_0163.txt",
+      "char_count": 3961,
+      "word_count": 626
+    },
+    {
+      "page_number": 164,
+      "text_file": "page_0164.txt",
+      "char_count": 3143,
+      "word_count": 498
+    },
+    {
+      "page_number": 165,
+      "text_file": "page_0165.txt",
+      "char_count": 1904,
+      "word_count": 285
+    },
+    {
+      "page_number": 166,
+      "text_file": "page_0166.txt",
+      "char_count": 3323,
+      "word_count": 516
+    },
+    {
+      "page_number": 167,
+      "text_file": "page_0167.txt",
+      "char_count": 3441,
+      "word_count": 571
+    },
+    {
+      "page_number": 168,
+      "text_file": "page_0168.txt",
+      "char_count": 1981,
+      "word_count": 317
+    },
+    {
+      "page_number": 169,
+      "text_file": "page_0169.txt",
+      "char_count": 2045,
+      "word_count": 328
+    },
+    {
+      "page_number": 170,
+      "text_file": "page_0170.txt",
+      "char_count": 3942,
+      "word_count": 625
+    },
+    {
+      "page_number": 171,
+      "text_file": "page_0171.txt",
+      "char_count": 1332,
+      "word_count": 212
+    },
+    {
+      "page_number": 172,
+      "text_file": "page_0172.txt",
+      "char_count": 4003,
+      "word_count": 633
+    },
+    {
+      "page_number": 173,
+      "text_file": "page_0173.txt",
+      "char_count": 3878,
+      "word_count": 597
+    },
+    {
+      "page_number": 174,
+      "text_file": "page_0174.txt",
+      "char_count": 1699,
+      "word_count": 292
+    },
+    {
+      "page_number": 175,
+      "text_file": "page_0175.txt",
+      "char_count": 3799,
+      "word_count": 584
+    },
+    {
+      "page_number": 176,
+      "text_file": "page_0176.txt",
+      "char_count": 3477,
+      "word_count": 532
+    },
+    {
+      "page_number": 177,
+      "text_file": "page_0177.txt",
+      "char_count": 1497,
+      "word_count": 229
+    },
+    {
+      "page_number": 178,
+      "text_file": "page_0178.txt",
+      "char_count": 2782,
+      "word_count": 408
+    },
+    {
+      "page_number": 179,
+      "text_file": "page_0179.txt",
+      "char_count": 3835,
+      "word_count": 594
+    },
+    {
+      "page_number": 180,
+      "text_file": "page_0180.txt",
+      "char_count": 283,
+      "word_count": 46
+    },
+    {
+      "page_number": 181,
+      "text_file": "page_0181.txt",
+      "char_count": 2899,
+      "word_count": 495
+    },
+    {
+      "page_number": 182,
+      "text_file": "page_0182.txt",
+      "char_count": 3599,
+      "word_count": 587
+    },
+    {
+      "page_number": 183,
+      "text_file": "page_0183.txt",
+      "char_count": 2560,
+      "word_count": 383
+    },
+    {
+      "page_number": 184,
+      "text_file": "page_0184.txt",
+      "char_count": 3589,
+      "word_count": 604
+    },
+    {
+      "page_number": 185,
+      "text_file": "page_0185.txt",
+      "char_count": 3480,
+      "word_count": 611
+    },
+    {
+      "page_number": 186,
+      "text_file": "page_0186.txt",
+      "char_count": 2675,
+      "word_count": 436
+    },
+    {
+      "page_number": 187,
+      "text_file": "page_0187.txt",
+      "char_count": 3801,
+      "word_count": 603
+    },
+    {
+      "page_number": 188,
+      "text_file": "page_0188.txt",
+      "char_count": 4523,
+      "word_count": 678
+    },
+    {
+      "page_number": 189,
+      "text_file": "page_0189.txt",
+      "char_count": 6796,
+      "word_count": 1028
+    },
+    {
+      "page_number": 190,
+      "text_file": "page_0190.txt",
+      "char_count": 6823,
+      "word_count": 1043
+    },
+    {
+      "page_number": 191,
+      "text_file": "page_0191.txt",
+      "char_count": 7991,
+      "word_count": 1262
+    },
+    {
+      "page_number": 192,
+      "text_file": "page_0192.txt",
+      "char_count": 5624,
+      "word_count": 841
+    },
+    {
+      "page_number": 193,
+      "text_file": "page_0193.txt",
+      "char_count": 8370,
+      "word_count": 1293
+    },
+    {
+      "page_number": 194,
+      "text_file": "page_0194.txt",
+      "char_count": 5993,
+      "word_count": 905
+    },
+    {
+      "page_number": 195,
+      "text_file": "page_0195.txt",
+      "char_count": 7750,
+      "word_count": 1234
+    },
+    {
+      "page_number": 196,
+      "text_file": "page_0196.txt",
+      "char_count": 6271,
+      "word_count": 993
+    },
+    {
+      "page_number": 197,
+      "text_file": "page_0197.txt",
+      "char_count": 7496,
+      "word_count": 1149
+    },
+    {
+      "page_number": 198,
+      "text_file": "page_0198.txt",
+      "char_count": 6925,
+      "word_count": 1065
+    },
+    {
+      "page_number": 199,
+      "text_file": "page_0199.txt",
+      "char_count": 7500,
+      "word_count": 1190
+    },
+    {
+      "page_number": 200,
+      "text_file": "page_0200.txt",
+      "char_count": 5380,
+      "word_count": 809
+    },
+    {
+      "page_number": 201,
+      "text_file": "page_0201.txt",
+      "char_count": 2704,
+      "word_count": 403
+    },
+    {
+      "page_number": 202,
+      "text_file": "page_0202.txt",
+      "char_count": 3638,
+      "word_count": 512
+    },
+    {
+      "page_number": 203,
+      "text_file": "page_0203.txt",
+      "char_count": 2953,
+      "word_count": 426
+    },
+    {
+      "page_number": 204,
+      "text_file": "page_0204.txt",
+      "char_count": 2648,
+      "word_count": 383
+    },
+    {
+      "page_number": 205,
+      "text_file": "page_0205.txt",
+      "char_count": 2294,
+      "word_count": 346
+    },
+    {
+      "page_number": 206,
+      "text_file": "page_0206.txt",
+      "char_count": 3195,
+      "word_count": 473
+    },
+    {
+      "page_number": 207,
+      "text_file": "page_0207.txt",
+      "char_count": 3161,
+      "word_count": 456
+    },
+    {
+      "page_number": 208,
+      "text_file": "page_0208.txt",
+      "char_count": 1720,
+      "word_count": 285
+    },
+    {
+      "page_number": 209,
+      "text_file": "page_0209.txt",
+      "char_count": 1268,
+      "word_count": 225
+    },
+    {
+      "page_number": 210,
+      "text_file": "page_0210.txt",
+      "char_count": 3017,
+      "word_count": 408
+    },
+    {
+      "page_number": 211,
+      "text_file": "page_0211.txt",
+      "char_count": 3081,
+      "word_count": 425
+    },
+    {
+      "page_number": 212,
+      "text_file": "page_0212.txt",
+      "char_count": 4899,
+      "word_count": 700
+    },
+    {
+      "page_number": 213,
+      "text_file": "page_0213.txt",
+      "char_count": 2781,
+      "word_count": 385
+    },
+    {
+      "page_number": 214,
+      "text_file": "page_0214.txt",
+      "char_count": 3046,
+      "word_count": 432
+    },
+    {
+      "page_number": 215,
+      "text_file": "page_0215.txt",
+      "char_count": 3044,
+      "word_count": 434
+    },
+    {
+      "page_number": 216,
+      "text_file": "page_0216.txt",
+      "char_count": 4718,
+      "word_count": 673
+    },
+    {
+      "page_number": 217,
+      "text_file": "page_0217.txt",
+      "char_count": 4882,
+      "word_count": 713
+    },
+    {
+      "page_number": 218,
+      "text_file": "page_0218.txt",
+      "char_count": 3737,
+      "word_count": 518
+    },
+    {
+      "page_number": 219,
+      "text_file": "page_0219.txt",
+      "char_count": 3696,
+      "word_count": 517
+    },
+    {
+      "page_number": 220,
+      "text_file": "page_0220.txt",
+      "char_count": 3722,
+      "word_count": 530
+    },
+    {
+      "page_number": 221,
+      "text_file": "page_0221.txt",
+      "char_count": 3500,
+      "word_count": 491
+    },
+    {
+      "page_number": 222,
+      "text_file": "page_0222.txt",
+      "char_count": 4419,
+      "word_count": 640
+    },
+    {
+      "page_number": 223,
+      "text_file": "page_0223.txt",
+      "char_count": 4957,
+      "word_count": 734
+    },
+    {
+      "page_number": 224,
+      "text_file": "page_0224.txt",
+      "char_count": 5295,
+      "word_count": 786
+    },
+    {
+      "page_number": 225,
+      "text_file": "page_0225.txt",
+      "char_count": 5722,
+      "word_count": 814
+    },
+    {
+      "page_number": 226,
+      "text_file": "page_0226.txt",
+      "char_count": 3073,
+      "word_count": 411
+    },
+    {
+      "page_number": 227,
+      "text_file": "page_0227.txt",
+      "char_count": 2050,
+      "word_count": 272
+    },
+    {
+      "page_number": 228,
+      "text_file": "page_0228.txt",
+      "char_count": 1337,
+      "word_count": 174
+    },
+    {
+      "page_number": 229,
+      "text_file": "page_0229.txt",
+      "char_count": 821,
+      "word_count": 89
+    },
+    {
+      "page_number": 230,
+      "text_file": "page_0230.txt",
+      "char_count": 915,
+      "word_count": 101
+    },
+    {
+      "page_number": 231,
+      "text_file": "page_0231.txt",
+      "char_count": 2827,
+      "word_count": 412
+    },
+    {
+      "page_number": 232,
+      "text_file": "page_0232.txt",
+      "char_count": 4486,
+      "word_count": 679
+    },
+    {
+      "page_number": 233,
+      "text_file": "page_0233.txt",
+      "char_count": 3749,
+      "word_count": 539
+    },
+    {
+      "page_number": 234,
+      "text_file": "page_0234.txt",
+      "char_count": 4216,
+      "word_count": 613
+    },
+    {
+      "page_number": 235,
+      "text_file": "page_0235.txt",
+      "char_count": 546,
+      "word_count": 71
+    },
+    {
+      "page_number": 236,
+      "text_file": "page_0236.txt",
+      "char_count": 1856,
+      "word_count": 283
+    },
+    {
+      "page_number": 237,
+      "text_file": "page_0237.txt",
+      "char_count": 4753,
+      "word_count": 684
+    },
+    {
+      "page_number": 238,
+      "text_file": "page_0238.txt",
+      "char_count": 3369,
+      "word_count": 479
+    },
+    {
+      "page_number": 239,
+      "text_file": "page_0239.txt",
+      "char_count": 5506,
+      "word_count": 808
+    },
+    {
+      "page_number": 240,
+      "text_file": "page_0240.txt",
+      "char_count": 5039,
+      "word_count": 712
+    },
+    {
+      "page_number": 241,
+      "text_file": "page_0241.txt",
+      "char_count": 3021,
+      "word_count": 410
+    },
+    {
+      "page_number": 242,
+      "text_file": "page_0242.txt",
+      "char_count": 2783,
+      "word_count": 412
+    },
+    {
+      "page_number": 243,
+      "text_file": "page_0243.txt",
+      "char_count": 2586,
+      "word_count": 386
+    },
+    {
+      "page_number": 244,
+      "text_file": "page_0244.txt",
+      "char_count": 2734,
+      "word_count": 389
+    },
+    {
+      "page_number": 245,
+      "text_file": "page_0245.txt",
+      "char_count": 987,
+      "word_count": 137
+    },
+    {
+      "page_number": 246,
+      "text_file": "page_0246.txt",
+      "char_count": 3274,
+      "word_count": 493
+    },
+    {
+      "page_number": 247,
+      "text_file": "page_0247.txt",
+      "char_count": 4815,
+      "word_count": 684
+    },
+    {
+      "page_number": 248,
+      "text_file": "page_0248.txt",
+      "char_count": 5140,
+      "word_count": 703
+    },
+    {
+      "page_number": 249,
+      "text_file": "page_0249.txt",
+      "char_count": 4945,
+      "word_count": 706
+    },
+    {
+      "page_number": 250,
+      "text_file": "page_0250.txt",
+      "char_count": 2820,
+      "word_count": 385
+    },
+    {
+      "page_number": 251,
+      "text_file": "page_0251.txt",
+      "char_count": 3024,
+      "word_count": 418
+    },
+    {
+      "page_number": 252,
+      "text_file": "page_0252.txt",
+      "char_count": 4946,
+      "word_count": 737
+    },
+    {
+      "page_number": 253,
+      "text_file": "page_0253.txt",
+      "char_count": 2313,
+      "word_count": 335
+    },
+    {
+      "page_number": 254,
+      "text_file": "page_0254.txt",
+      "char_count": 2974,
+      "word_count": 427
+    },
+    {
+      "page_number": 255,
+      "text_file": "page_0255.txt",
+      "char_count": 3808,
+      "word_count": 547
+    },
+    {
+      "page_number": 256,
+      "text_file": "page_0256.txt",
+      "char_count": 1601,
+      "word_count": 214
+    },
+    {
+      "page_number": 257,
+      "text_file": "page_0257.txt",
+      "char_count": 1411,
+      "word_count": 186
+    },
+    {
+      "page_number": 258,
+      "text_file": "page_0258.txt",
+      "char_count": 3167,
+      "word_count": 439
+    },
+    {
+      "page_number": 259,
+      "text_file": "page_0259.txt",
+      "char_count": 2499,
+      "word_count": 377
+    },
+    {
+      "page_number": 260,
+      "text_file": "page_0260.txt",
+      "char_count": 3470,
+      "word_count": 493
+    },
+    {
+      "page_number": 261,
+      "text_file": "page_0261.txt",
+      "char_count": 2880,
+      "word_count": 425
+    },
+    {
+      "page_number": 262,
+      "text_file": "page_0262.txt",
+      "char_count": 1617,
+      "word_count": 213
+    },
+    {
+      "page_number": 263,
+      "text_file": "page_0263.txt",
+      "char_count": 1401,
+      "word_count": 206
+    },
+    {
+      "page_number": 264,
+      "text_file": "page_0264.txt",
+      "char_count": 614,
+      "word_count": 77
+    },
+    {
+      "page_number": 265,
+      "text_file": "page_0265.txt",
+      "char_count": 1473,
+      "word_count": 198
+    },
+    {
+      "page_number": 266,
+      "text_file": "page_0266.txt",
+      "char_count": 4460,
+      "word_count": 678
+    },
+    {
+      "page_number": 267,
+      "text_file": "page_0267.txt",
+      "char_count": 3406,
+      "word_count": 510
+    },
+    {
+      "page_number": 268,
+      "text_file": "page_0268.txt",
+      "char_count": 3127,
+      "word_count": 512
+    },
+    {
+      "page_number": 269,
+      "text_file": "page_0269.txt",
+      "char_count": 3787,
+      "word_count": 566
+    },
+    {
+      "page_number": 270,
+      "text_file": "page_0270.txt",
+      "char_count": 1312,
+      "word_count": 193
+    },
+    {
+      "page_number": 271,
+      "text_file": "page_0271.txt",
+      "char_count": 1688,
+      "word_count": 230
+    },
+    {
+      "page_number": 272,
+      "text_file": "page_0272.txt",
+      "char_count": 5098,
+      "word_count": 770
+    },
+    {
+      "page_number": 273,
+      "text_file": "page_0273.txt",
+      "char_count": 3769,
+      "word_count": 582
+    },
+    {
+      "page_number": 274,
+      "text_file": "page_0274.txt",
+      "char_count": 4868,
+      "word_count": 753
+    },
+    {
+      "page_number": 275,
+      "text_file": "page_0275.txt",
+      "char_count": 5422,
+      "word_count": 852
+    },
+    {
+      "page_number": 276,
+      "text_file": "page_0276.txt",
+      "char_count": 3290,
+      "word_count": 444
+    },
+    {
+      "page_number": 277,
+      "text_file": "page_0277.txt",
+      "char_count": 3014,
+      "word_count": 433
+    },
+    {
+      "page_number": 278,
+      "text_file": "page_0278.txt",
+      "char_count": 5488,
+      "word_count": 842
+    },
+    {
+      "page_number": 279,
+      "text_file": "page_0279.txt",
+      "char_count": 4142,
+      "word_count": 644
+    },
+    {
+      "page_number": 280,
+      "text_file": "page_0280.txt",
+      "char_count": 5522,
+      "word_count": 802
+    },
+    {
+      "page_number": 281,
+      "text_file": "page_0281.txt",
+      "char_count": 5646,
+      "word_count": 840
+    },
+    {
+      "page_number": 282,
+      "text_file": "page_0282.txt",
+      "char_count": 5604,
+      "word_count": 899
+    },
+    {
+      "page_number": 283,
+      "text_file": "page_0283.txt",
+      "char_count": 5828,
+      "word_count": 914
+    },
+    {
+      "page_number": 284,
+      "text_file": "page_0284.txt",
+      "char_count": 5721,
+      "word_count": 906
+    },
+    {
+      "page_number": 285,
+      "text_file": "page_0285.txt",
+      "char_count": 4920,
+      "word_count": 727
+    },
+    {
+      "page_number": 286,
+      "text_file": "page_0286.txt",
+      "char_count": 4859,
+      "word_count": 724
+    },
+    {
+      "page_number": 287,
+      "text_file": "page_0287.txt",
+      "char_count": 3512,
+      "word_count": 581
+    },
+    {
+      "page_number": 288,
+      "text_file": "page_0288.txt",
+      "char_count": 3734,
+      "word_count": 553
+    },
+    {
+      "page_number": 289,
+      "text_file": "page_0289.txt",
+      "char_count": 2985,
+      "word_count": 416
+    },
+    {
+      "page_number": 290,
+      "text_file": "page_0290.txt",
+      "char_count": 4786,
+      "word_count": 691
+    },
+    {
+      "page_number": 291,
+      "text_file": "page_0291.txt",
+      "char_count": 2964,
+      "word_count": 417
+    },
+    {
+      "page_number": 292,
+      "text_file": "page_0292.txt",
+      "char_count": 2328,
+      "word_count": 306
+    },
+    {
+      "page_number": 293,
+      "text_file": "page_0293.txt",
+      "char_count": 1917,
+      "word_count": 249
+    },
+    {
+      "page_number": 294,
+      "text_file": "page_0294.txt",
+      "char_count": 942,
+      "word_count": 109
+    },
+    {
+      "page_number": 295,
+      "text_file": "page_0295.txt",
+      "char_count": 779,
+      "word_count": 81
+    },
+    {
+      "page_number": 296,
+      "text_file": "page_0296.txt",
+      "char_count": 2099,
+      "word_count": 291
+    },
+    {
+      "page_number": 297,
+      "text_file": "page_0297.txt",
+      "char_count": 3358,
+      "word_count": 518
+    },
+    {
+      "page_number": 298,
+      "text_file": "page_0298.txt",
+      "char_count": 4359,
+      "word_count": 684
+    },
+    {
+      "page_number": 299,
+      "text_file": "page_0299.txt",
+      "char_count": 5644,
+      "word_count": 908
+    },
+    {
+      "page_number": 300,
+      "text_file": "page_0300.txt",
+      "char_count": 3650,
+      "word_count": 665
+    },
+    {
+      "page_number": 301,
+      "text_file": "page_0301.txt",
+      "char_count": 5225,
+      "word_count": 813
+    },
+    {
+      "page_number": 302,
+      "text_file": "page_0302.txt",
+      "char_count": 5125,
+      "word_count": 832
+    },
+    {
+      "page_number": 303,
+      "text_file": "page_0303.txt",
+      "char_count": 4517,
+      "word_count": 716
+    },
+    {
+      "page_number": 304,
+      "text_file": "page_0304.txt",
+      "char_count": 6168,
+      "word_count": 942
+    },
+    {
+      "page_number": 305,
+      "text_file": "page_0305.txt",
+      "char_count": 5980,
+      "word_count": 952
+    },
+    {
+      "page_number": 306,
+      "text_file": "page_0306.txt",
+      "char_count": 4337,
+      "word_count": 694
+    },
+    {
+      "page_number": 307,
+      "text_file": "page_0307.txt",
+      "char_count": 5728,
+      "word_count": 942
+    },
+    {
+      "page_number": 308,
+      "text_file": "page_0308.txt",
+      "char_count": 2213,
+      "word_count": 415
+    },
+    {
+      "page_number": 309,
+      "text_file": "page_0309.txt",
+      "char_count": 3757,
+      "word_count": 689
+    },
+    {
+      "page_number": 310,
+      "text_file": "page_0310.txt",
+      "char_count": 4272,
+      "word_count": 676
+    },
+    {
+      "page_number": 311,
+      "text_file": "page_0311.txt",
+      "char_count": 6501,
+      "word_count": 965
+    },
+    {
+      "page_number": 312,
+      "text_file": "page_0312.txt",
+      "char_count": 4536,
+      "word_count": 688
+    },
+    {
+      "page_number": 313,
+      "text_file": "page_0313.txt",
+      "char_count": 2800,
+      "word_count": 385
+    },
+    {
+      "page_number": 314,
+      "text_file": "page_0314.txt",
+      "char_count": 4240,
+      "word_count": 630
+    },
+    {
+      "page_number": 315,
+      "text_file": "page_0315.txt",
+      "char_count": 5806,
+      "word_count": 878
+    },
+    {
+      "page_number": 316,
+      "text_file": "page_0316.txt",
+      "char_count": 6255,
+      "word_count": 1000
+    },
+    {
+      "page_number": 317,
+      "text_file": "page_0317.txt",
+      "char_count": 6125,
+      "word_count": 940
+    },
+    {
+      "page_number": 318,
+      "text_file": "page_0318.txt",
+      "char_count": 6044,
+      "word_count": 938
+    },
+    {
+      "page_number": 319,
+      "text_file": "page_0319.txt",
+      "char_count": 6301,
+      "word_count": 940
+    },
+    {
+      "page_number": 320,
+      "text_file": "page_0320.txt",
+      "char_count": 5091,
+      "word_count": 816
+    },
+    {
+      "page_number": 321,
+      "text_file": "page_0321.txt",
+      "char_count": 6113,
+      "word_count": 943
+    },
+    {
+      "page_number": 322,
+      "text_file": "page_0322.txt",
+      "char_count": 6290,
+      "word_count": 959
+    },
+    {
+      "page_number": 323,
+      "text_file": "page_0323.txt",
+      "char_count": 5737,
+      "word_count": 924
+    },
+    {
+      "page_number": 324,
+      "text_file": "page_0324.txt",
+      "char_count": 5153,
+      "word_count": 829
+    },
+    {
+      "page_number": 325,
+      "text_file": "page_0325.txt",
+      "char_count": 3342,
+      "word_count": 551
+    },
+    {
+      "page_number": 326,
+      "text_file": "page_0326.txt",
+      "char_count": 4594,
+      "word_count": 731
+    },
+    {
+      "page_number": 327,
+      "text_file": "page_0327.txt",
+      "char_count": 5509,
+      "word_count": 903
+    },
+    {
+      "page_number": 328,
+      "text_file": "page_0328.txt",
+      "char_count": 4078,
+      "word_count": 641
+    },
+    {
+      "page_number": 329,
+      "text_file": "page_0329.txt",
+      "char_count": 4507,
+      "word_count": 745
+    },
+    {
+      "page_number": 330,
+      "text_file": "page_0330.txt",
+      "char_count": 2976,
+      "word_count": 440
+    },
+    {
+      "page_number": 331,
+      "text_file": "page_0331.txt",
+      "char_count": 1457,
+      "word_count": 198
+    },
+    {
+      "page_number": 332,
+      "text_file": "page_0332.txt",
+      "char_count": 3162,
+      "word_count": 482
+    },
+    {
+      "page_number": 333,
+      "text_file": "page_0333.txt",
+      "char_count": 5894,
+      "word_count": 883
+    },
+    {
+      "page_number": 334,
+      "text_file": "page_0334.txt",
+      "char_count": 5575,
+      "word_count": 880
+    },
+    {
+      "page_number": 335,
+      "text_file": "page_0335.txt",
+      "char_count": 942,
+      "word_count": 145
+    },
+    {
+      "page_number": 336,
+      "text_file": "page_0336.txt",
+      "char_count": 4794,
+      "word_count": 786
+    },
+    {
+      "page_number": 337,
+      "text_file": "page_0337.txt",
+      "char_count": 3328,
+      "word_count": 452
+    },
+    {
+      "page_number": 338,
+      "text_file": "page_0338.txt",
+      "char_count": 3691,
+      "word_count": 568
+    },
+    {
+      "page_number": 339,
+      "text_file": "page_0339.txt",
+      "char_count": 3157,
+      "word_count": 466
+    },
+    {
+      "page_number": 340,
+      "text_file": "page_0340.txt",
+      "char_count": 3814,
+      "word_count": 634
+    },
+    {
+      "page_number": 341,
+      "text_file": "page_0341.txt",
+      "char_count": 3668,
+      "word_count": 600
+    },
+    {
+      "page_number": 342,
+      "text_file": "page_0342.txt",
+      "char_count": 5299,
+      "word_count": 797
+    },
+    {
+      "page_number": 343,
+      "text_file": "page_0343.txt",
+      "char_count": 6108,
+      "word_count": 931
+    },
+    {
+      "page_number": 344,
+      "text_file": "page_0344.txt",
+      "char_count": 6068,
+      "word_count": 933
+    },
+    {
+      "page_number": 345,
+      "text_file": "page_0345.txt",
+      "char_count": 5974,
+      "word_count": 948
+    },
+    {
+      "page_number": 346,
+      "text_file": "page_0346.txt",
+      "char_count": 5129,
+      "word_count": 797
+    },
+    {
+      "page_number": 347,
+      "text_file": "page_0347.txt",
+      "char_count": 2013,
+      "word_count": 306
+    },
+    {
+      "page_number": 348,
+      "text_file": "page_0348.txt",
+      "char_count": 5912,
+      "word_count": 888
+    },
+    {
+      "page_number": 349,
+      "text_file": "page_0349.txt",
+      "char_count": 4909,
+      "word_count": 745
+    },
+    {
+      "page_number": 350,
+      "text_file": "page_0350.txt",
+      "char_count": 4770,
+      "word_count": 724
+    },
+    {
+      "page_number": 351,
+      "text_file": "page_0351.txt",
+      "char_count": 5151,
+      "word_count": 684
+    },
+    {
+      "page_number": 352,
+      "text_file": "page_0352.txt",
+      "char_count": 3018,
+      "word_count": 456
+    },
+    {
+      "page_number": 353,
+      "text_file": "page_0353.txt",
+      "char_count": 4609,
+      "word_count": 693
+    },
+    {
+      "page_number": 354,
+      "text_file": "page_0354.txt",
+      "char_count": 6346,
+      "word_count": 941
+    },
+    {
+      "page_number": 355,
+      "text_file": "page_0355.txt",
+      "char_count": 893,
+      "word_count": 133
+    },
+    {
+      "page_number": 356,
+      "text_file": "page_0356.txt",
+      "char_count": 5646,
+      "word_count": 865
+    },
+    {
+      "page_number": 357,
+      "text_file": "page_0357.txt",
+      "char_count": 3131,
+      "word_count": 506
+    },
+    {
+      "page_number": 358,
+      "text_file": "page_0358.txt",
+      "char_count": 6130,
+      "word_count": 964
+    },
+    {
+      "page_number": 359,
+      "text_file": "page_0359.txt",
+      "char_count": 6098,
+      "word_count": 935
+    },
+    {
+      "page_number": 360,
+      "text_file": "page_0360.txt",
+      "char_count": 3972,
+      "word_count": 615
+    },
+    {
+      "page_number": 361,
+      "text_file": "page_0361.txt",
+      "char_count": 5731,
+      "word_count": 892
+    },
+    {
+      "page_number": 362,
+      "text_file": "page_0362.txt",
+      "char_count": 2805,
+      "word_count": 681
+    },
+    {
+      "page_number": 363,
+      "text_file": "page_0363.txt",
+      "char_count": 2590,
+      "word_count": 567
+    },
+    {
+      "page_number": 364,
+      "text_file": "page_0364.txt",
+      "char_count": 3670,
+      "word_count": 607
+    },
+    {
+      "page_number": 365,
+      "text_file": "page_0365.txt",
+      "char_count": 3670,
+      "word_count": 573
+    },
+    {
+      "page_number": 366,
+      "text_file": "page_0366.txt",
+      "char_count": 3738,
+      "word_count": 536
+    },
+    {
+      "page_number": 367,
+      "text_file": "page_0367.txt",
+      "char_count": 4893,
+      "word_count": 753
+    },
+    {
+      "page_number": 368,
+      "text_file": "page_0368.txt",
+      "char_count": 2540,
+      "word_count": 379
+    },
+    {
+      "page_number": 369,
+      "text_file": "page_0369.txt",
+      "char_count": 4145,
+      "word_count": 640
+    },
+    {
+      "page_number": 370,
+      "text_file": "page_0370.txt",
+      "char_count": 3849,
+      "word_count": 608
+    },
+    {
+      "page_number": 371,
+      "text_file": "page_0371.txt",
+      "char_count": 4402,
+      "word_count": 656
+    },
+    {
+      "page_number": 372,
+      "text_file": "page_0372.txt",
+      "char_count": 4191,
+      "word_count": 656
+    },
+    {
+      "page_number": 373,
+      "text_file": "page_0373.txt",
+      "char_count": 4557,
+      "word_count": 699
+    },
+    {
+      "page_number": 374,
+      "text_file": "page_0374.txt",
+      "char_count": 4360,
+      "word_count": 647
+    },
+    {
+      "page_number": 375,
+      "text_file": "page_0375.txt",
+      "char_count": 3665,
+      "word_count": 607
+    },
+    {
+      "page_number": 376,
+      "text_file": "page_0376.txt",
+      "char_count": 5365,
+      "word_count": 819
+    },
+    {
+      "page_number": 377,
+      "text_file": "page_0377.txt",
+      "char_count": 2274,
+      "word_count": 320
+    },
+    {
+      "page_number": 378,
+      "text_file": "page_0378.txt",
+      "char_count": 3864,
+      "word_count": 596
+    },
+    {
+      "page_number": 379,
+      "text_file": "page_0379.txt",
+      "char_count": 1843,
+      "word_count": 277
+    },
+    {
+      "page_number": 380,
+      "text_file": "page_0380.txt",
+      "char_count": 2015,
+      "word_count": 307
+    },
+    {
+      "page_number": 381,
+      "text_file": "page_0381.txt",
+      "char_count": 5173,
+      "word_count": 785
+    },
+    {
+      "page_number": 382,
+      "text_file": "page_0382.txt",
+      "char_count": 4838,
+      "word_count": 713
+    },
+    {
+      "page_number": 383,
+      "text_file": "page_0383.txt",
+      "char_count": 2606,
+      "word_count": 373
+    },
+    {
+      "page_number": 384,
+      "text_file": "page_0384.txt",
+      "char_count": 3120,
+      "word_count": 432
+    },
+    {
+      "page_number": 385,
+      "text_file": "page_0385.txt",
+      "char_count": 2048,
+      "word_count": 292
+    },
+    {
+      "page_number": 386,
+      "text_file": "page_0386.txt",
+      "char_count": 3688,
+      "word_count": 561
+    },
+    {
+      "page_number": 387,
+      "text_file": "page_0387.txt",
+      "char_count": 2129,
+      "word_count": 312
+    },
+    {
+      "page_number": 388,
+      "text_file": "page_0388.txt",
+      "char_count": 2632,
+      "word_count": 400
+    },
+    {
+      "page_number": 389,
+      "text_file": "page_0389.txt",
+      "char_count": 2129,
+      "word_count": 312
+    },
+    {
+      "page_number": 390,
+      "text_file": "page_0390.txt",
+      "char_count": 2444,
+      "word_count": 354
+    },
+    {
+      "page_number": 391,
+      "text_file": "page_0391.txt",
+      "char_count": 4091,
+      "word_count": 606
+    },
+    {
+      "page_number": 392,
+      "text_file": "page_0392.txt",
+      "char_count": 4578,
+      "word_count": 715
+    },
+    {
+      "page_number": 393,
+      "text_file": "page_0393.txt",
+      "char_count": 5012,
+      "word_count": 696
+    },
+    {
+      "page_number": 394,
+      "text_file": "page_0394.txt",
+      "char_count": 4930,
+      "word_count": 713
+    },
+    {
+      "page_number": 395,
+      "text_file": "page_0395.txt",
+      "char_count": 4727,
+      "word_count": 706
+    },
+    {
+      "page_number": 396,
+      "text_file": "page_0396.txt",
+      "char_count": 3689,
+      "word_count": 532
+    },
+    {
+      "page_number": 397,
+      "text_file": "page_0397.txt",
+      "char_count": 4508,
+      "word_count": 647
+    },
+    {
+      "page_number": 398,
+      "text_file": "page_0398.txt",
+      "char_count": 3801,
+      "word_count": 596
+    },
+    {
+      "page_number": 399,
+      "text_file": "page_0399.txt",
+      "char_count": 4003,
+      "word_count": 623
+    },
+    {
+      "page_number": 400,
+      "text_file": "page_0400.txt",
+      "char_count": 4170,
+      "word_count": 689
+    },
+    {
+      "page_number": 401,
+      "text_file": "page_0401.txt",
+      "char_count": 2362,
+      "word_count": 356
+    },
+    {
+      "page_number": 402,
+      "text_file": "page_0402.txt",
+      "char_count": 3965,
+      "word_count": 518
+    },
+    {
+      "page_number": 403,
+      "text_file": "page_0403.txt",
+      "char_count": 4490,
+      "word_count": 631
+    },
+    {
+      "page_number": 404,
+      "text_file": "page_0404.txt",
+      "char_count": 4928,
+      "word_count": 734
+    },
+    {
+      "page_number": 405,
+      "text_file": "page_0405.txt",
+      "char_count": 4347,
+      "word_count": 670
+    },
+    {
+      "page_number": 406,
+      "text_file": "page_0406.txt",
+      "char_count": 2081,
+      "word_count": 293
+    }
+  ]
+}

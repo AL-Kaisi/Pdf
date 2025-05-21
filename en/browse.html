@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse All Pages - Tikrit Pharmacy 2025</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .page-browser {
+            margin: 2rem 0;
+        }
+        
+        .search-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 2px solid #e9ecef;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            font-size: 16px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+        }
+        
+        .page-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .page-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .page-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: #007bff;
+        }
+        
+        .page-number {
+            position: absolute;
+            top: -10px;
+            right: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .page-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+            line-height: 1.3;
+        }
+        
+        .page-preview {
+            color: #6c757d;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            margin: 1rem 0;
+            height: 60px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        
+        .page-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .tag {
+            background: #e7f3ff;
+            color: #0066cc;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .view-page-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .view-page-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .filter-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+            align-items: center;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #dee2e6;
+            background: white;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+        
+        .filter-btn.active,
+        .filter-btn:hover {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+        
+        .results-info {
+            background: #e8f5e8;
+            border: 1px solid #c3e6c3;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            text-align: center;
+            color: #2d5a2d;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: #6c757d;
+        }
+        
+        .no-results i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+        
+        .progress-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: rgba(0,123,255,0.1);
+            z-index: 1000;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #007bff, #28a745);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-indicator">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1><span class="en">Tikrit Pharmacy Competitive Curriculum 2025</span><span class="ar">منهاج تنافسي صيدلة تكريت 2025</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i> <span class="en">Home</span><span class="ar">الرئيسية</span></a></li>
+                    <li><a href="index.html"><i class="fas fa-book"></i> <span class="en">English</span><span class="ar">الإنجليزية</span></a></li>
+                    <li><a href="../ar/index.html"><i class="fas fa-book-open"></i> <span class="en">Arabic</span><span class="ar">العربية</span></a></li>
+                    <li><a href="../resources/index.html"><i class="fas fa-file-pdf"></i> <span class="en">Resources</span><span class="ar">المصادر</span></a></li>
+                    <li><a href="browse.html" class="active"><i class="fas fa-th-large"></i> <span class="en">Browse</span><span class="ar">تصفح</span></a></li>
+                </ul>
+            </nav>
+            <div class="language-toggle">
+                <button id="toggleLanguage"><i class="fas fa-language"></i> <span class="toggle-text">عربي</span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <div class="page-browser">
+                    <h2><span class="en">Browse All Study Pages</span><span class="ar">تصفح جميع صفحات الدراسة</span></h2>
+                    <p><span class="en">Explore all 80 sections of the pharmacy curriculum. Use search and filters to find specific topics quickly.</span><span class="ar">استكشف جميع الأقسام الـ 80 من منهج الصيدلة. استخدم البحث والفلاتر للعثور على المواضيع المحددة بسرعة.</span></p>
+                    
+                    <div class="search-box">
+                        <input type="text" id="searchInput" class="search-input" placeholder="Search for topics, drugs, concepts... | البحث عن المواضيع والأدوية والمفاهيم...">
+                        
+                        <div class="filter-controls">
+                            <span><strong><span class="en">Filter by:</span><span class="ar">تصفية حسب:</span></strong></span>
+                            <button class="filter-btn active" data-filter="all">
+                                <span class="en">All Topics</span><span class="ar">جميع المواضيع</span>
+                            </button>
+                            <button class="filter-btn" data-filter="drug-design">
+                                <span class="en">Drug Design</span><span class="ar">تصميم الأدوية</span>
+                            </button>
+                            <button class="filter-btn" data-filter="pharmacology">
+                                <span class="en">Pharmacology</span><span class="ar">علم الأدوية</span>
+                            </button>
+                            <button class="filter-btn" data-filter="chemistry">
+                                <span class="en">Chemistry</span><span class="ar">الكيمياء</span>
+                            </button>
+                            <button class="filter-btn" data-filter="calculations">
+                                <span class="en">Calculations</span><span class="ar">الحسابات</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="results-info" id="resultsInfo">
+                        <i class="fas fa-info-circle"></i>
+                        <span class="en">Showing all 80 pages</span><span class="ar">عرض جميع الصفحات الـ 80</span>
+                    </div>
+                    
+                    <div class="page-grid" id="pageGrid">
+                        <!-- Pages will be loaded here dynamically -->
+                    </div>
+                    
+                    <div class="no-results" id="noResults" style="display: none;">
+                        <i class="fas fa-search"></i>
+                        <h3><span class="en">No results found</span><span class="ar">لم يتم العثور على نتائج</span></h3>
+                        <p><span class="en">Try adjusting your search terms or filters</span><span class="ar">حاول تعديل مصطلحات البحث أو الفلاتر</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tikrit Pharmacy Curriculum | <span class="en">Created to help students excel</span><span class="ar">تم إنشاؤه لمساعدة الطلاب على التفوق</span></p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // Page data - this would normally come from a database or API
+        const pages = [
+            {
+                number: 1,
+                title: "Drug Design Strategies",
+                titleAr: "استراتيجيات تصميم الأدوية",
+                preview: "The process of creating drugs that interact with specific receptors, have desired effects, and are eliminated from the body in a controlled manner.",
+                tags: ["drug-design", "pharmacology"],
+                link: "full_content.html#section-1"
+            },
+            {
+                number: 2,
+                title: "Designing Pharmaceutical Strategies",
+                titleAr: "تصميم الاستراتيجيات الصيدلانية",
+                preview: "Advanced techniques in pharmaceutical design focusing on receptor-ligand interactions and drug optimization.",
+                tags: ["drug-design", "chemistry"],
+                link: "full_content.html#section-2"
+            },
+            {
+                number: 3,
+                title: "Pharmacokinetics of Drug Administration",
+                titleAr: "الحركية الدوائية لإدارة الأدوية",
+                preview: "Study of drug absorption, distribution, metabolism, and excretion in the human body.",
+                tags: ["pharmacology", "calculations"],
+                link: "full_content.html#section-3"
+            }
+            // Add more pages as needed - in a real application, this would be dynamically loaded
+        ];
+
+        // Generate pages dynamically for demonstration
+        function generateAllPages() {
+            const titles = [
+                "Drug Design Strategies", "Pharmaceutical Strategies", "Pharmacokinetics", "Drug Administration", 
+                "Pharmacology Principles", "Chemical Properties", "Receptor Interactions", "Drug Metabolism",
+                "Dose Calculations", "pH and pKa", "Acid-Base Chemistry", "Cellular Membranes",
+                "Molecular Structure", "Optical Isomerism", "Chirality", "Drug Delivery Systems",
+                "Bioavailability", "Drug Interactions", "Toxicology", "Adverse Effects"
+            ];
+            
+            const arabicTitles = [
+                "استراتيجيات تصميم الأدوية", "الاستراتيجيات الصيدلانية", "الحركية الدوائية", "إدارة الأدوية",
+                "مبادئ علم الأدوية", "الخصائص الكيميائية", "تفاعلات المستقبلات", "استقلاب الأدوية",
+                "حسابات الجرعات", "الأس الهيدروجيني", "كيمياء الأحماض والقواعد", "أغشية الخلايا",
+                "التركيب الجزيئي", "التماكب البصري", "الكيرالية", "أنظمة توصيل الأدوية",
+                "التوافر الحيوي", "تفاعلات الأدوية", "علم السموم", "التأثيرات الضارة"
+            ];
+            
+            const categories = ["drug-design", "pharmacology", "chemistry", "calculations"];
+            const allPages = [];
+            
+            for (let i = 1; i <= 80; i++) {
+                const titleIndex = (i - 1) % titles.length;
+                const category = categories[Math.floor(Math.random() * categories.length)];
+                
+                allPages.push({
+                    number: i,
+                    title: titles[titleIndex] + (i > 20 ? ` - Part ${Math.ceil(i/20)}` : ''),
+                    titleAr: arabicTitles[titleIndex] + (i > 20 ? ` - الجزء ${Math.ceil(i/20)}` : ''),
+                    preview: `Comprehensive study material covering key concepts in ${titles[titleIndex].toLowerCase()}. Essential knowledge for pharmacy students.`,
+                    tags: [category, i <= 20 ? "basic" : i <= 60 ? "intermediate" : "advanced"],
+                    link: `full_content.html#section-${i}`
+                });
+            }
+            
+            return allPages;
+        }
+
+        let allPages = generateAllPages();
+        let filteredPages = [...allPages];
+
+        function renderPages(pages) {
+            const grid = document.getElementById('pageGrid');
+            const noResults = document.getElementById('noResults');
+            
+            if (pages.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+            
+            grid.innerHTML = pages.map(page => `
+                <div class="page-card" data-tags="${page.tags.join(' ')}">
+                    <div class="page-number">Page ${page.number}</div>
+                    <h3 class="page-title">
+                        <span class="en">${page.title}</span>
+                        <span class="ar">${page.titleAr}</span>
+                    </h3>
+                    <div class="page-preview">${page.preview}</div>
+                    <div class="page-tags">
+                        ${page.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                    <a href="${page.link}" class="view-page-btn">
+                        <i class="fas fa-eye"></i>
+                        <span class="en">View Page</span>
+                        <span class="ar">عرض الصفحة</span>
+                    </a>
+                </div>
+            `).join('');
+            
+            updateProgressBar();
+        }
+
+        function updateResultsInfo(count) {
+            const info = document.getElementById('resultsInfo');
+            if (count === allPages.length) {
+                info.innerHTML = `
+                    <i class="fas fa-info-circle"></i>
+                    <span class="en">Showing all ${count} pages</span>
+                    <span class="ar">عرض جميع الصفحات الـ ${count}</span>
+                `;
+            } else {
+                info.innerHTML = `
+                    <i class="fas fa-filter"></i>
+                    <span class="en">Showing ${count} of ${allPages.length} pages</span>
+                    <span class="ar">عرض ${count} من أصل ${allPages.length} صفحة</span>
+                `;
+            }
+        }
+
+        function updateProgressBar() {
+            const progress = document.getElementById('progressBar');
+            const percentage = (filteredPages.length / allPages.length) * 100;
+            progress.style.width = percentage + '%';
+        }
+
+        function filterPages() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+            
+            filteredPages = allPages.filter(page => {
+                const matchesSearch = searchTerm === '' || 
+                    page.title.toLowerCase().includes(searchTerm) ||
+                    page.titleAr.includes(searchTerm) ||
+                    page.preview.toLowerCase().includes(searchTerm) ||
+                    page.tags.some(tag => tag.toLowerCase().includes(searchTerm));
+                
+                const matchesFilter = activeFilter === 'all' || 
+                    page.tags.includes(activeFilter);
+                
+                return matchesSearch && matchesFilter;
+            });
+            
+            renderPages(filteredPages);
+            updateResultsInfo(filteredPages.length);
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', filterPages);
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                filterPages();
+            });
+        });
+
+        // Initial render
+        renderPages(filteredPages);
+        updateResultsInfo(filteredPages.length);
+
+        // Smooth scrolling for anchor links
+        document.addEventListener('click', (e) => {
+            if (e.target.matches('a[href*="#"]')) {
+                e.preventDefault();
+                const target = document.querySelector(e.target.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
